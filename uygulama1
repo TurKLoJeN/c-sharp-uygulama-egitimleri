@@ -1,0 +1,24 @@
+ ______           __ __ __              __     _   __   _ __        
+ /_  __/_  _______/ //_// /   ____      / /__  / | / /  (_) /__      
+  / / / / / / ___/ ,<  / /   / __ \__  / / _ \/  |/ /  / / / _ \     
+ / / / /_/ / /  / /| |/ /___/ /_/ / /_/ /  __/ /|  /  / / /  __/     
+/_/  \__,_/_/  /_/ |_/_____/\____/\____/\___/_/ |_/  /_/_/\___/      
+                                                                     
+   ______  __ __     __  __                  __                      __           _ 
+  / ____/_/ // /_   / / / /_  ______ ___  __/ /___ _____ ___  ____ _/ /___ ______(_)
+ / /   /_  _  __/  / / / / / / / __ `/ / / / / __ `/ __ `__ \/ __ `/ / __ `/ ___/ / 
+/ /___/_  _  __/  / /_/ / /_/ / /_/ / /_/ / / /_/ / / / / / / /_/ / / /_/ / /  / /  
+\____/ /_//_/     \____/\__, /\__, /\__,_/_/\__,_/_/ /_/ /_/\__,_/_/\__,_/_/  /_/   
+
+
+Programın Amacı : Butona tıklandığında Textbox içeresine yazılan ifadeleri Mesaj kutusunda göstermek
+
+Gereken Araçlar : 
+
+a - 1 adet TextBox
+b - 1 adet Button
+
+Kod : 
+
+string mesaj = textBox1.Text; // Metinsel olarak string bir mesaj değişkeni yarattık ve textBox1.Text içeresindeki verilere eşitledik 
+MessageBox.Show(mesaj); // Mesaj kutusunda mesaj değişkenine tanımlanan verileri gösterdik
