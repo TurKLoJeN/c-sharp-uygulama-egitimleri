@@ -1,0 +1,27 @@
+  ______           __ __ __              __     _   __   _ __        
+ /_  __/_  _______/ //_// /   ____      / /__  / | / /  (_) /__      
+  / / / / / / ___/ ,<  / /   / __ \__  / / _ \/  |/ /  / / / _ \     
+ / / / /_/ / /  / /| |/ /___/ /_/ / /_/ /  __/ /|  /  / / /  __/     
+/_/  \__,_/_/  /_/ |_/_____/\____/\____/\___/_/ |_/  /_/_/\___/      
+                                                                     
+   ______  __ __     __  __                  __                      __           _ 
+  / ____/_/ // /_   / / / /_  ______ ___  __/ /___ _____ ___  ____ _/ /___ ______(_)
+ / /   /_  _  __/  / / / / / / / __ `/ / / / / __ `/ __ `__ \/ __ `/ / __ `/ ___/ / 
+/ /___/_  _  __/  / /_/ / /_/ / /_/ / /_/ / / /_/ / / / / / / /_/ / / /_/ / /  / /  
+\____/ /_//_/     \____/\__, /\__, /\__,_/_/\__,_/_/ /_/ /_/\__,_/_/\__,_/_/  /_/   
+
+
+Programın Amacı : Butona tıklandığında TextBox 1 ve TextBox 2 de bulunan değerleri toplayan program
+
+Gerekli Araçlar : 
+
+2 adet textbox
+2 adet label
+1 adet button
+
+Kod : 
+
+int sayi1 = Convert.ToInt32(textBox1.Text); // textbox daki değeri int (tamsayı) dönüştürdük ve sayi1 olarak aktardık
+int sayi2 = Convert.ToInt32(textBox2.Text); // textbox daki değeri int (tamsayı) dönüştürdük ve sayi2 olarak aktardık
+int sonuc = sayi1 + sayi2; // aktarılan iki tamsayı değişkeni topladık ve tamsayı olan sonuç değişkenine aktardık
+label2.Text = Convert.ToString(sonuc); // label2 text özelliğine sonuç değişkeni string ifadeye dönüştürerek yazdırdık  
